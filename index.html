@@ -1,3 +1,70 @@
-<DOCTYPE! html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nom de l'artisan – Site vitrine</title>
+<meta name="description" content="Découvrez [Nom de l'activité], à [Ville]. Contactez-nous
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container header-content">
+<h1 class="logo">Nom de l'entreprise</h1>
+<nav>
+<ul class="nav-links">
+<li><a href="#accueil">Accueil</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section id="accueil" class="hero">
+<div class="container">
+<h2>Un titre accrocheur qui résume l'activité</h2>
+<p>Une phrase courte qui explique ce que fait l'entreprise et pourquoi choisir ce profe
+<a href="#contact" class="btn">Nous contacter</a>
+</div>
+</section>
+<section id="services" class="services">
+<div class="container">
+<h2>Nos services</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>Service 1</h3>
+<p>Description courte du service proposé.</p>
+</div>
+<div class="service-card">
+<h3>Service 2</h3>
+<p>Description courte du service proposé.</p>
+</div>
+<div class="service-card">
+<h3>Service 3</h3>
+<p>Description courte du service proposé.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="contact">
+<div class="container">
+<h2>Contactez-nous</h2>
+<p>Une question ? Un projet ? Écrivez-nous.</p>
+<form class="contact-form" action="https://formspree.io/f/VOTRE_ID" method="POST">
+<label for="nom">Nom</label>
+<input type="text" id="nom" name="nom" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+<button type="submit" class="btn">Envoyer</button>
+</form>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<p>&copy; 2026 Nom de l'entreprise. Tous droits réservés.</p>
+</div>
+</footer>
+</body>
+</html>
